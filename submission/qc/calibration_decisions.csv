@@ -1,1 +1,5 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_013|img_004,loi_may,"YOLO26 gán nhầm tuk-tuk và xe ba gác thành car/truck","Luôn phân loại xe ba bánh địa phương có động cơ hoặc đạp chân thành three_wheeler","mục 2: xe ba bánh có mui vẫn là three_wheeler",v1.1
+CAL-02,img_011|img_016,cau_hoi_mo,"Xe đạp điện và xe máy điện nhỏ thuộc bicycle hay motorbike?","Phân loại theo bàn đạp trợ lực: có bàn đạp gán bicycle; không có bàn đạp/dạng xe tay ga gán motorbike","mục 6 câu 1: quy tắc phân loại xe điện hai bánh",v1.1
+CAL-03,img_018|img_021,bay_lot,"Bẫy missing bị lọt trên ảnh đông xe máy do ùn tắc ở cự ly xa","Cụm xe máy dày đặc trên 5 xe và chiều cao dưới 20px bắt buộc dùng 1 box ignore_region thay vì gán lẻ","mục 4.1.6: quy tắc gom cụm ignore_region cho bãi đỗ/ùn tắc",v1.1
+CAL-04,img_004|img_013,cau_hoi_mo,"Hàng hóa chở cồng kềnh nhô ra khỏi khung xe ba bánh/xe đạp","Hàng gắn cố định thuộc xe; hàng nhô ra quá 20% chiều dài xe thì không tính phần nhô vào box xe","mục 4.1.5: quy chuẩn biên box cho hàng chở trên xe",v1.1

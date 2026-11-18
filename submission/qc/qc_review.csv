@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong,NguyenHaiNam,Đủ nhãn person và motorbike ôm sát vật thể
+img_006.jpg,,khong,NguyenHaiNam,Đúng nhãn các xe và người đi bộ
+img_014.jpg,,khong,NguyenHaiNam,Không có box thừa hay sót vật
+img_031.jpg,,khong,NguyenHaiNam,Xe three_wheeler được gán đúng quy tắc
+img_035.jpg,,khong,NguyenHaiNam,Các đối tượng rõ ràng đúng phân loại
